@@ -28,5 +28,5 @@ EXPOSE 5000
 
 # Run the application
 
-CMD [ "npm", "run", "dev" ]
+CMD [ "node", "run", "dev" ]
 
