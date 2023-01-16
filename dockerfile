@@ -24,9 +24,9 @@ COPY . /usr/src/app
 
 # Expose the application’s port
 
-EXPOSE 8080
+EXPOSE 5000
 
 # Run the application
 
-CMD [ “npm”, “run”, “dev” ]
+CMD [ "npm", "run", "dev" ]
 
